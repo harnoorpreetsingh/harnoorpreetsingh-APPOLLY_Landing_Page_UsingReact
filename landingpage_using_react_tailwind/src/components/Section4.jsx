@@ -15,7 +15,7 @@ const Section4 = () => {
     <>
     <div className= "mt-8 md:mt-16">
         <div className="txt text-center xl:px-[340px]">
-        <h1 className='md:mt-12 md:text-5xl text-xl font-bold' >CHECKOUT OUR APP INTERFACE LOOK</h1>
+        <h1 className='md:mt-12 md:text-4xl text-xl font-bold' >CHECKOUT OUR APP INTERFACE LOOK</h1>
         <p  className='md:mt-12 mt-8 text-[#6C6C72] mx-12 md:text-xl font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
         </div>
         

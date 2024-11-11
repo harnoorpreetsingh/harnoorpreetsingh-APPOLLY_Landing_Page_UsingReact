@@ -20,34 +20,34 @@ const Section2 = () => {
              <div className="rightcards  mt-8 md:mt-2 ">
 
 
-                <div className="card1  sm:h-[190px] xl:h-[170px] rounded-xl xl:w-[672px] shadow-2xl p-2 xl:p-4 ">
-                    <div className="top flex gap-2 lg:mt-1">
-                        <img src={tick} alt="" />
-                        <p className='lg:text-2xl sm:text-2xl font-bold' >CREATIVE DESIGN</p>
+                <div className="card1  sm:h-[190px] xl:h-[220px] rounded-xl xl:w-[672px] shadow-lg  p-2 xl:p-8 ">
+                    <div className="top flex gap-3 lg:mt-1">
+                        <img src={tick} alt=""  className="lg:w-[35px]"/>
+                        <p className='lg:text-3xl sm:text-2xl ' >CREATIVE DESIGN</p>
                     </div>
-                <div className="bot xl:mt-4 sm:mt-4 sm:text-xl xl:px-7 px-1">
+                <div className="bot xl:mt-4 text-[#6C6C72] sm:mt-4 sm:text-xl xl:px-7 px-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.</p>
                 </div>
                 </div>
 
                 
-                <div className="card1 h-[190px] xl:h-[170px] rounded-xl mt-8 xl:mt-4 xl:w-[672px] shadow-2xl p-2 xl:p-4 ">
+                <div className="card1 h-[190px] xl:h-[220px] rounded-xl mt-8 xl:mt-4 xl:w-[672px] shadow-lg p-2 xl:p-8 ">
                     <div className="top flex gap-2 mt-1">
-                        <img src={tick} alt="" />
+                        <img src={tick} alt=""  className="lg:w-[35px]"/>
                         <p className='xl:text-2xl font-bold sm:text-2xl' >EASY TO USE</p>
                     </div>
-                <div className="bot  xl:mt-4 sm:mt-4 sm:text-xl xl:px-7 px-1">
+                <div className="bot text-[#6C6C72] xl:mt-4 sm:mt-4 sm:text-xl xl:px-7 px-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.</p>
                 </div>
                 </div>
 
                 
-                <div className="card1 h-[190px] xl:h-[170px] rounded-xl mt-8 xl:mt-4 xl:w-[672px]  p-2 xl:p-4 shadow-2xl">
+                <div className="card1 h-[190px] xl:h-[220px] rounded-xl mt-8 xl:mt-4 xl:w-[672px]  p-2 xl:p-8 shadow-lg">
                     <div className="top flex gap-2 mt-1">
-                        <img src={tick} alt="" />
+                        <img src={tick} alt=""  className="lg:w-[35px]"/>
                         <p className='xl:text-2xl font-bold sm:text-2xl' >BEST USER EXPERIENCE</p>
                     </div>
-                <div className=" xl:mt-4 sm:mt-4 sm:text-xl xl:px-7 px-1">
+                <div className=" xl:mt-4  text-[#6C6C72] sm:mt-4 sm:text-xl xl:px-7 px-1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.</p>
                 </div>
                 </div>

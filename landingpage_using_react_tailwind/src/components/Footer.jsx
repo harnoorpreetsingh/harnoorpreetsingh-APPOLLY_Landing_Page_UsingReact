@@ -35,7 +35,7 @@ const Footer = () => {
 
        <div className="bl h-[] xl:h-[630px] mt-28 md:!mt-0 flex flex-col bg-[#232233]">
 
-        <div className="grid grid-cols-1 p-4 md:grid-cols-3 justify-around mt-[220px] md:mt-40 xl:mt-60 xl:gap-16  xl:mx-20 text-white  border-b-2  xl:h-[380px] border-b-white">
+        <div className="grid grid-cols-1 p-4 md:grid-cols-3 justify-around mt-[220px] md:mt-40 xl:mt-60 xl:gap-16  xl:mx-20 text-white  border-b-2  xl:h-[280px] border-b-white">
 
 
             <div className="l  md:pr-0 xl:max-w-[350px]">
@@ -55,7 +55,7 @@ const Footer = () => {
 
             <div className="m xl:max-w-[350px] flex text-start md:justify-center text-white">
 
-            <div className="mt-16 ">
+            <div className="mt- ">
             <h1 className="text-3xl">QUICK LINK</h1>
             <h1 className="mt-4">About</h1>
             <h1 className="mt-4">Features</h1>
@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="r xl:max-w-[350px] mt-12  text-white">
+            <div className="r xl:max-w-[350px]   text-white">
                 <h1 className="text-3xl">NEWSLETTER</h1>
                 <h1 className="mt-4">Subscribe our newsletter to get our latest
                 update & news</h1>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="copy text-white text-center mt-12 lg:mt-8 p-2 ">
-            <h1>&copy;  Copyright 2021 .Ojjomedia. All Right Reserved.</h1>
+            <h1>&copy;  Copyright 2021. Ojjomedia. All Right Reserved.</h1>
             
         </div>
 
