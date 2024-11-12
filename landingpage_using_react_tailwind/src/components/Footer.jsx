@@ -35,10 +35,10 @@ const Footer = () => {
 
        <div className="bl h-[] xl:h-[630px] mt-28 md:!mt-0 flex flex-col bg-[#232233]">
 
-        <div className="grid grid-cols-1 p-4 md:grid-cols-3 justify-around mt-[220px] md:mt-40 xl:mt-60 xl:gap-16  xl:mx-20 text-white  border-b-2  xl:h-[280px] border-b-white">
+        <div className="grid grid-cols-1 p-4 md:grid-cols-3 justify-around mt-[220px] md:mt-40 xl:mt-60 xl:gap-16  xl:mx-20 text-white  border-b-2   xl:h-[280px] border-b-white">
 
 
-            <div className="l  md:pr-0 xl:max-w-[350px]">
+            <div className="l  md:pr-0 xl:max-w-[350px] mr-8 md:mr-[0px]">
                 <h1 className="text-4xl font-bold" >LOGO</h1>
                 <h1 className="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</h1>
                 <div className="socials mt-10 flex justify-between">
@@ -55,7 +55,7 @@ const Footer = () => {
 
             <div className="m xl:max-w-[350px] flex text-start md:justify-center text-white">
 
-            <div className="mt- ">
+            <div className="mt-16 md:mt-[0px] ">
             <h1 className="text-3xl">QUICK LINK</h1>
             <h1 className="mt-4">About</h1>
             <h1 className="mt-4">Features</h1>
@@ -67,20 +67,20 @@ const Footer = () => {
             </div>
 
 
-            <div className="r xl:max-w-[350px]   text-white">
+            <div className="r xl:max-w-[350px] mt-16 md:mt-[0px]  text-white">
                 <h1 className="text-3xl">NEWSLETTER</h1>
                 <h1 className="mt-4">Subscribe our newsletter to get our latest
                 update & news</h1>
-                <div className="inp flex items-center mt-9">
-                    <input type="email" className="text-black p-3 w-[600px]   xl:w-[308px]" name="" id="" placeholder="Your email address"/>
-                    <button> <img src={lasticon} alt="" className="xl:p-[11px] h-[48px] w-[107px]  xl:w-[51px] md:w-[150px] bg-[#5956E9] border border-white"  /> </button>
+                <div className="inp flex items-center mt-9 mb-4">
+                    <input type="email" className="text-black p-3  w-[600px]   xl:w-[308px]" name="" id="" placeholder="Your email address"/>
+                    <button> <img src={lasticon} alt="" className="xl:p-[11px]  h-[48px] w-[107px]  xl:w-[51px] md:w-[150px] bg-[#5956E9] border border-white"  /> </button>
                 </div>
             </div>
 
 
         </div>
 
-        <div className="copy text-white text-center mt-12 lg:mt-8 p-2 ">
+        <div className="copy text-white text-sm text-center mt-4 lg:mt-8 p-2 ">
             <h1>&copy;  Copyright 2021. Ojjomedia. All Right Reserved.</h1>
             
         </div>

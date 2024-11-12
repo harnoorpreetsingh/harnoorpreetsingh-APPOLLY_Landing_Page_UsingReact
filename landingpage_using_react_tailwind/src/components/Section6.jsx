@@ -41,38 +41,54 @@ const Section6 = () => {
           </h1>
         </div>
 
-        <div className="card grid grid-cols-1 justify-center md:grid-cols-3 mt-12 xl:mx-40 p-4 gap-10 md:justify-between">
-            <div className="card flex flex-col lg:items-start items-center rounded-xl xl:h-[450px] xl:w-[390px]  p-1 shadow-2xl">
+        <div className="card grid grid-cols-1 justify-center md:grid-cols-3 mt-12 xl:mx-40  gap-10 md:justify-between">
+            <div className="card flex flex-col items-start  rounded-xl xl:h-[460px] xl:w-[314px] 2xl:w-[390px] 2xl:h-[490px] p-1 shadow-2xl">
                   <img src={Image} alt=""  />
-                  <div className="text px-4">
-                    <h1 className="text-lg mt-2 font-bold">THE SNAP PIXEL: HOW IT WORKS AND HOW TO INSTALL</h1>
-                    <h1 className=" mt-2 text-sm  text-[#6C6C72]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</h1>
+                  <div className="text px-4 flex flex-col md:text-center md:items-center md:justify-center w-[100%] ">
+                    <div className="overflow-hidden">
+                    <h1 className="text-lg mt-2 md:h-[120px] md:w-[180px] lg:w-[100%] lg:h-[80px] flex lg:text center">THE SNAP PIXEL: HOW IT WORKS AND HOW TO INSTALL</h1>
+
+                    </div>
+                    <div className=" overflow-hidden">
+                    <h1 className=" mt-2 md:h-[120px] md:w-[180px] lg:w-[100%] lg:h-[80px] flex lg:text center  text-sm  text-[#6C6C72]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</h1>
+                    </div>
                   </div>
-                  <h1 className="mt-6 underline px-4 text-xl font-bold text-[#5851EA]">READ MORE</h1>
+                  <h1 className="mt-4 mb-2 md:mt-8  lg:mt-6 underline px-4 text-xl font-bold text-[#5851EA]">READ MORE</h1>
             </div>
        
     
     
-            <div className="card flex flex-col  lg:items-start items-center xl:h-[450px] rounded-xl xl:w-[390px] p-1 shadow-2xl">
+            <div className="card flex flex-col  items-start  xl:h-[460px] rounded-xl xl:w-[314px] 2xl:w-[390px] p-1 2xl:h-[490px] shadow-2xl">
                   <img src={Image2} alt=""  />
-                  <div className="text px-4">
-                    <h1 className="text-lg mt-2 font-bold">GLOBAL PARTNER SOLUTIONS: A PARTNERSHIP OF INNOVATION</h1>
-                    <h1 className=" mt-2 text-sm  text-[#6C6C72]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</h1>
+                  <div className="text px-4 flex flex-col md:text-center md:items-center md:justify-center w-[100%] ">
+                    <div className="overflow-hidden">
+                    <h1 className="text-lg mt-2 md:h-[120px] md:w-[180px] lg:w-[100%] lg:h-[80px] flex lg:text center">GLOBAL PARTNER SOLUTIONS: A PARTNERSHIP OF INNOVATION</h1>
+
+                    </div>
+                    <div className="overflow-hidden">
+                    <h1 className=" mt-2 text-sm md:h-[120px] md:w-[180px] lg:w-[100%] lg:h-[80px] flex lg:text center  text-[#6C6C72]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.Est tellus vitae, nullam lobortis enim.</h1>
+                    </div>
                   </div>
-                  <h1 className="mt-6 underline px-5 text-xl  font-bold text-[#5851EA]">READ MORE</h1>
+                  <h1 className="mt-4 mb-2 md:mt-8 lg:mt-6 underline px-4 text-xl font-bold text-[#5851EA]">READ MORE</h1>
             </div>
         
     
     
     
     
-            <div className="card flex flex-col lg:items-start items-center xl:h-[450px] rounded-xl xl:w-[390px] p-1 shadow-2xl">
+            <div className="card flex flex-col items-start  xl:h-[460px] rounded-xl xl:w-[314px] 2xl:w-[390px] p-1 2xl:h-[490px]  shadow-2xl">
                   <img src={Image3} alt=""  />
-                  <div className="text px-4">
-                    <h1 className="text-lg mt-2 font-bold">2021: AN OPPORTUNITY FOR SNAPCHATTERS TO START FRESH</h1>
-                    <h1 className=" mt-2 text-sm  text-[#6C6C72]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</h1>
+                  <div className="text px-4 flex flex-col md:text-center md:items-center md:justify-center w-[100%] ">
+                    <div className="overflow-hidden">
+                    <h1 className="text-lg mt-2 md:h-[120px] md:w-[180px] lg:w-[100%] lg:h-[80px] flex lg:text center">2021: AN OPPORTUNITY FOR SNAPCHATTERS TO START FRESH</h1>
+                    </div>
+                    <div className="overflow-hidden ">
+                    <h1 className=" mt-2 text-sm md:h-[120px] md:w-[180px] lg:w-[100%] lg:h-[80px] flex lg:text center  text-[#6C6C72]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</h1>
+                    </div>
                   </div>
-                  <h1 className="mt-6 underline px-4 text-xl font-bold text-[#5851EA]">READ MORE</h1>
+                  
+                  <h1 className="mt-4 mb-2  md:mt-8 lg:mt-6 underline px-4 text-xl  font-bold text-[#5851EA]">READ MORE</h1>
+                  
             
         </div>
     
