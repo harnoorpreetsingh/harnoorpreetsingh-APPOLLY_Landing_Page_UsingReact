@@ -14,19 +14,19 @@ const Section4 = () => {
   return (
     <>
     <div className= "mt-12 md:mt-16">
-        <div className="txt text-center xl:px-[340px]">
-        <h1 className='md:mt-12 md:text-4xl text-2xl md:mx-40' >CHECKOUT OUR APP INTERFACE LOOK</h1>
+        <div className="txt text-center 2xl:px-[340px]">
+        <h1 className='md:mt-12 md:text-4xl  text-2xl md:mx-40 xl:mx-12 xl:font-bold' >CHECKOUT OUR APP INTERFACE LOOK</h1>
         <p  className='md:mt-12 mt-8 md:hidden text-[#6C6C72] mx-12 md:text-xl font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
-        <p  className='md:mt-10 hidden md:block mt-8 text-[#6C6C72] mx-32 md:text-xl font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+        <p  className='md:mt-10 hidden md:block mt-8 text-[#6C6C72] mx-32 xl:mx-28 md:text-xl font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
         </div>
         
 
-        <div className="hidden IMG mt-10 md:flex justify-center ">
+        <div className="hidden xl:mt-16 IMG mt-10 md:flex justify-center ">
             <img src={Left} alt="" className="hidden lg:flex " />
             <img src={mobdb} alt="" className="w-[802px]" />
             <img src={Right} alt="" className="hidden lg:flex"/>
         </div>
-        <div className="md:hidden IMG mt-10 flex justify-center">
+        <div className="md:hidden IMG mt-10  flex justify-center">
             <img src={AS} alt="" />
         </div>
 
@@ -42,11 +42,11 @@ const Section4 = () => {
           <div className="left">
 
             <div className="top  ">
-              <h1 className="text-3xl mx-4 lg:text-4xl md:text-start font-semibold sm:text-center " >DOWNLOAD APP NOW</h1>
+              <h1 className="text-3xl  lg:text-4xl md:text-start font-semibold sm:text-center mx-4 lg:mx-0 " >DOWNLOAD APP NOW</h1>
               <p className="mt-4 mx-4 lg:hidden lg:mx-0 text-[#6C6C72]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
               <p className="mt-4 mx-4 md:mx-12 hidden lg:block lg:mx-0 text-[#6C6C72]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
 
-              <div className="imgs mx-2 flex items-center  md:justify-start md:gap-4  gap-2 sm:gap-4 mt-10">
+              <div className="imgs mx-2 flex items-center  md:justify-start md:gap-4 xl:gap-12 gap-2 sm:gap-4 mt-10">
             <img src={playstore} alt="" />
             <img src={app} alt="" />
 

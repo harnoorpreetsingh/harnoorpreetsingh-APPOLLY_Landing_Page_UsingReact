@@ -10,7 +10,7 @@ const Section1 = () => {
 
     
     <>
-     <div className=" bg-cover bg-center  p-t-[10px] md:p-t-[0] lg:h-[790px]  xl:h-[1000px] md:h-[800px] lg:px-16 xl:px-40 p-2 " style={{ backgroundImage: `url(${bg1})`, paddingTop: '20px'}}> 
+     <div className=" bg-cover bg-center  p-t-[10px] md:p-t-[0] lg:h-[790px]  xl:h-[1000px] md:h-[800px] lg:px-16  xl:px-24 2xl:px-40 p-2 " style={{ backgroundImage: `url(${bg1})`, paddingTop: '20px'}}> 
         <Header />
 
          <div className=" mt-16 lg:mt-20 grid grid-cols-1 md:grid-cols-2 gap-[40px] xl:gap-[120px] lg:gap-[30px] xl:p-4  md:justify-between ">

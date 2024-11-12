@@ -39,19 +39,19 @@ const Header = () => {
         <nav className="flex justify-between w-[100%] items-center mt-[] sm:mt-[] lg:mt[0px]">
           <div className="leftlis">
            <div className="lg:hidden sm:w-[28px] md:w-[38px] sm:mt-[] mt-[]"> <img src={ham} alt="" /></div>
-            <ul className="lg:flex hidden md:gap-4 lg:gap-10 xl:gap-28 mt-[]">
+            <ul className="lg:flex hidden md:gap-4 lg:gap-10 xl:gap-16 2xl:gap-28 mt-[]">
               <li>HOME</li>
               <li>ABOUT</li>
               <li>FEATURES</li>
             </ul>
           </div>
 
-          <div className="logo rounded-md p-4 bg-white h-[60px] sm:h-[70px] md:h-[80px] lg:h-[100px] flex items-center  ">
-            <img src={logo} alt="" className=" w-20 md:w-36  lg:w-48 " />
+          <div className="logo rounded-md p-4 lg:p-5 xl:p-7 bg-white h-[60px] sm:h-[70px] md:h-[80px] lg:h-[100px] flex items-center  ">
+            <img src={logo} alt="" className=" w-20 md:w-36  lg:w-48 xl:w-60 " />
           </div>
 
           <div className="rightlis">
-            <ul className="lg:flex  md:gap-4 lg:gap-9 xl:gap-24 lg:!mt-[0px] sm:mt-[] md:mt-[] ">
+            <ul className="lg:flex  md:gap-4 lg:gap-9 xl:gap-16 2xl:gap-24 lg:!mt-[0px] sm:mt-[] md:mt-[] ">
               <li className="hidden lg:block lg:!mt-[8px]" >SCREENSHOT</li>
               <li className="hidden lg:block lg:!mt-[8px]">BLOG</li>
               <button className="text-white w-[82px] lg:w-[102px] text-xs  sm:mt-[] md:mt-[] lg:mt-[] lg:p-3    bg-[#5956E9] md:p-2 p-[3px]" >DOWNLOAD</button>

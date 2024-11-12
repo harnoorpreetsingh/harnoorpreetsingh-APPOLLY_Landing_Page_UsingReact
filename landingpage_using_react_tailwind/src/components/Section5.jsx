@@ -14,16 +14,16 @@ const Section5 = () => {
   return (
     <>
       <div
-        className=" bg-cover bg-center mt-16 md:mt-20 p-1 h-[250px] md:h-[350px] lg:h-[520px] lg:px-40"
+        className=" bg-cover bg-center mt-16 md:mt-20 xl:mt-8 p-1 h-[250px] md:h-[350px] lg:h-[520px] xl:h-[450px] lg:px-40"
         style={{ backgroundImage: `url(${vididspl})`,  height:''}}
       >
-        <div className="text text-white mt-8 lg:mt-32 text-center">
+        <div className="text text-white mt-8 lg:mt-32 xl:mt-16 text-center">
           <h1 className="text-2xl xl:text-4xl md:mx-48 md:font-bold ">HOW TO USE THE APP PERFECTLY</h1>
           <h1 className="xl:mx-64 md:hidden text-sm mt-6 mx-2 font-light">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae.
           </h1>
-          <h1 className="xl:mx-64 md:mx-52 font-light hidden md:block text-sm mt-6">
+          <h1 className="xl:mx-68 md:mx-52 font-light hidden md:block text-sm mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
             Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
@@ -40,7 +40,7 @@ const Section5 = () => {
 
 {/* cardd secton-------------------------------------------------> */}
         <div className="team p-4">
-          <div className="text md:mt-64 xl:mt-72 mt-20 text-center">
+          <div className="text md:mt-64 xl:mt-64 mt-20 text-center">
             <h1 className="xl:text-4xl text-2xl md:font-bold ">OUR RELATIVE TEAM</h1>
             <h1 className="xl:mx-72 mt-6 md:hidden lg:mx-40 text-[#6C6C72]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
@@ -54,7 +54,7 @@ const Section5 = () => {
             </h1>
           </div>
 
-          <div className="grid grid-cols-1 justify-center items-center sm:p-3 md:grid-cols-3 mt-8 xl:mx-40 gap-5 xl:gap-20 ">
+          <div className="grid grid-cols-1 justify-center items-center sm:p-3 md:grid-cols-3 mt-8 xl:mx-16 gap-5 xl:gap-6 ">
 
 
             <div className="card rounded-xl xl:h-[520px] p-4  xl:w-[368px] shadow-2xl text-center">

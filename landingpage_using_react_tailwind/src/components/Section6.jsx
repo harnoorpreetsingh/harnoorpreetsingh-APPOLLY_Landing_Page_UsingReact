@@ -13,8 +13,8 @@ const Section6 = () => {
         <div className=" bg-cover bg-center  h-[]  xl:px-40 mt-3  " style={{ backgroundImage: `url(${bg1})` }}>
 
     
-        <div className="text text-white mt-2 md:mt-16 p-[1px] text-center ">
-          <h1 className="xl:text-4xl text-2xl md:text-3xl md:mt-28 md:font-bold  lg:mt-20 mt-16">OUR HAPPY CUSTOMERS</h1>
+        <div className="text text-white mt-2 md:mt-12 xl:mt-4 p-[1px] text-center ">
+          <h1 className="xl:text-4xl text-2xl md:text-3xl md:mt-28 md:font-bold xl:mt-16  lg:mt-20 mt-16">OUR HAPPY CUSTOMERS</h1>
           <h1 className="xl:mx-64 mt-6 px-6 md:hidden font-light">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae.
@@ -28,7 +28,7 @@ const Section6 = () => {
         </div>
         <img src={Review} alt="" className="hidden sm:flex"/>
         <img src={rv} alt="" className="sm:hidden mt-[-20px] w-[100%] flex justify-center items-center "/>
-        <div className="slider flex justify-center  mt-[-60px] md:mt-[1px] p-4">
+        <div className="slider flex justify-center  mt-[-60px] md:mt-[-12px] p-4">
         <img src={Slider2} alt="" />
           <br /><br />
         </div>
@@ -41,7 +41,7 @@ const Section6 = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae.
           </h1>
-          <h1 className="xl:mx-80 md:mx-32 mt-4 md:mt-6 hidden mx-8 text-[#6C6C72] md:block">
+          <h1 className="xl:mx-[400px] md:mx-32 mt-4 md:mt-6 hidden mx-8 text-[#6C6C72] md:block">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
             Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.

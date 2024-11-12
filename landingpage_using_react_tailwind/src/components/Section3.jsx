@@ -11,7 +11,7 @@ const Section3 = () => {
   return (
     <>
       <div
-        className=" bg-cover bg-center  h-[] md:h-[1180px]  lg:h-[1620px] xl:px-40 p-[4px]"
+        className=" bg-cover bg-center  h-[] md:h-[1180px]  lg:h-[1520px] xl:px-32 2xl:px-[40] p-[4px]"
         style={{ backgroundImage: `url(${bg2})` }}
       >
         <div className="text text-center text-white mt-8 md:mt-12 lg:mt-24 ">
@@ -20,7 +20,7 @@ const Section3 = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae.
           </p>
-          <p className="mt-4 hidden md:block lg:mt-6 lg:px-80 font-light">
+          <p className="mt-4 hidden md:block lg:mt-6 lg:px-56 font-light">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
             Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
