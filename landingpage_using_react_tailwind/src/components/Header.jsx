@@ -35,7 +35,7 @@ const Header = () => {
       </div>
 
       
-      <div className="navbar flex items-center justify-between bg-white mt-4 p-4 h-9 sm:h-10  md:h-12 lg:h-16 rounded-lg font-semibold   xl:text-lg ">
+      <div className="navbar flex items-center justify-between bg-white mt-4 p-4 h-9 sm:h-10  md:h-12 lg:h-16 rounded-sm font-semibold   xl:text-lg ">
         <nav className="flex justify-between w-[100%] items-center mt-[] sm:mt-[] lg:mt[0px]">
           <div className="leftlis">
            <div className="lg:hidden sm:w-[28px] md:w-[38px] sm:mt-[] mt-[]"> <img src={ham} alt="" /></div>
@@ -54,7 +54,7 @@ const Header = () => {
             <ul className="lg:flex  md:gap-4 lg:gap-9 xl:gap-24 lg:!mt-[0px] sm:mt-[] md:mt-[] ">
               <li className="hidden lg:block lg:!mt-[8px]" >SCREENSHOT</li>
               <li className="hidden lg:block lg:!mt-[8px]">BLOG</li>
-              <button className="text-white w-[82px] lg:w-[102px] text-xs  sm:mt-[] md:mt-[] lg:mt-[] lg:p-3    bg-[#5956E9] md:p-2 p-[6px]" >DOWNLOAD</button>
+              <button className="text-white w-[82px] lg:w-[102px] text-xs  sm:mt-[] md:mt-[] lg:mt-[] lg:p-3    bg-[#5956E9] md:p-2 p-[3px]" >DOWNLOAD</button>
             </ul>
           </div>
         </nav>

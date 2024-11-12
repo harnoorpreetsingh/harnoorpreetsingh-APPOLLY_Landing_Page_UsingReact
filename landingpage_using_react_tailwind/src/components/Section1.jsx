@@ -10,15 +10,15 @@ const Section1 = () => {
 
     
     <>
-     <div className=" bg-cover bg-center p-t-[10px] md:p-t-[0] lg:h-[790px]  xl:h-[1000px] md:h-[800px] lg:px-16 xl:px-40 p-2" style={{ backgroundImage: `url(${bg1})`, paddingTop: '20px'}}> 
+     <div className=" bg-cover bg-center  p-t-[10px] md:p-t-[0] lg:h-[790px]  xl:h-[1000px] md:h-[800px] lg:px-16 xl:px-40 p-2 " style={{ backgroundImage: `url(${bg1})`, paddingTop: '20px'}}> 
         <Header />
 
-         <div className=" mt-8 lg:mt-20 grid grid-cols-1 md:grid-cols-2 gap-[40px] xl:gap-[120px] lg:gap-[30px] xl:p-4  md:justify-between ">
-            <div className="left mt-[35px] md:mt-[110px]">
+         <div className=" mt-16 lg:mt-20 grid grid-cols-1 md:grid-cols-2 gap-[40px] xl:gap-[120px] lg:gap-[30px] xl:p-4  md:justify-between ">
+            <div className="left mt-[35px] md:mt-[110px] mx-2">
             <img src={tx1} alt="tx1" className="" />
             </div>
             <div className="right flex justify-center md:justify-end md:items-end">
-            <img src={Mobile} alt="Mobile" className="h-[] md:w-[243px] md:h-[341px] lg:w-[413px] lg:h-[453px] xl:h-[703px]" />
+            <img src={Mobile} alt="Mobile" className="h-[] md:w-[243px] md:h-[341px] lg:w-[413px] lg:h-[453px] xl:h-[703px] ml-5" />
             </div>
         </div>
 

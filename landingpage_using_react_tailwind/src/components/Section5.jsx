@@ -14,12 +14,16 @@ const Section5 = () => {
   return (
     <>
       <div
-        className=" bg-cover bg-center mt-16 p-1 h-[350px] lg:h-[520px] lg:px-40"
+        className=" bg-cover bg-center mt-16 md:mt-20 p-1 h-[250px] md:h-[350px] lg:h-[520px] lg:px-40"
         style={{ backgroundImage: `url(${vididspl})`,  height:''}}
       >
         <div className="text text-white mt-8 lg:mt-32 text-center">
-          <h1 className="text-3xl xl:text-4xl">HOW TO USE THE APP PERFECTLY</h1>
-          <h1 className="xl:mx-64 text-sm mt-6">
+          <h1 className="text-2xl xl:text-4xl md:mx-48 md:font-bold ">HOW TO USE THE APP PERFECTLY</h1>
+          <h1 className="xl:mx-64 md:hidden text-sm mt-6 mx-2 font-light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+            nunc ante velit vitae.
+          </h1>
+          <h1 className="xl:mx-64 md:mx-52 font-light hidden md:block text-sm mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
             Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
@@ -36,9 +40,13 @@ const Section5 = () => {
 
 {/* cardd secton-------------------------------------------------> */}
         <div className="team p-4">
-          <div className="text  xl:mt-72 mt-32 text-center">
-            <h1 className="xl:text-4xl text-2xl font-bold ">OUR RELATIVE TEAM</h1>
-            <h1 className="xl:mx-72 mt-6 lg:mx-40 text-[#6C6C72]">
+          <div className="text md:mt-64 xl:mt-72 mt-20 text-center">
+            <h1 className="xl:text-4xl text-2xl md:font-bold ">OUR RELATIVE TEAM</h1>
+            <h1 className="xl:mx-72 mt-6 md:hidden lg:mx-40 text-[#6C6C72]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+              nunc ante velit vitae.
+            </h1>
+            <h1 className="xl:mx-72 md:mx-36 hidden md:block mt-6 lg:mx-40 text-[#6C6C72]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
               nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
               Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
@@ -46,12 +54,14 @@ const Section5 = () => {
             </h1>
           </div>
 
-          <div className="grid grid-cols-1 justify-center items-center sm:p-3 md:grid-cols-3 mt-16 xl:mx-40 gap-5 xl:gap-20 ">
+          <div className="grid grid-cols-1 justify-center items-center sm:p-3 md:grid-cols-3 mt-8 xl:mx-40 gap-5 xl:gap-20 ">
 
 
             <div className="card rounded-xl xl:h-[520px] p-4  xl:w-[368px] shadow-2xl text-center">
               <div className="img mt-6 flex justify-center">
-                <img src={pr} alt="" className="absolute " />
+                <img src={pr} alt="" className="absolute md:hidden " />
+                <img src={pr} alt="" className="absolute hidden md:block md:w-[200px] lg:hidden" />
+                <img src={pr} alt="" className="absolute hidden lg:block " />
                 <img src={pp} alt="" className="relative p-3" />
               </div>
               <div className="title mt-6">
@@ -76,8 +86,10 @@ const Section5 = () => {
 
               <div className="card rounded-xl xl:h-[520px] p-4 xl:w-[368px] shadow-2xl text-center">
               <div className="img mt-6 flex justify-center">
-                <img src={pr} alt="" className="absolute " />
-                <img src={craig} alt="" className="relative p-3" />
+              <img src={pr} alt="" className="absolute md:hidden " />
+                <img src={pr} alt="" className="absolute hidden md:block md:w-[200px] lg:hidden" />
+                <img src={pr} alt="" className="absolute hidden lg:block " />   
+                 <img src={craig} alt="" className="relative p-3" />
               </div>
               <div className="title mt-6">
                 <h1 className="xl:text-2xl font-bold">CRAIG GOUSE</h1>
@@ -100,7 +112,9 @@ const Section5 = () => {
 
             <div className="card rounded-xl xl:h-[520px] p-4 xl:w-[368px] shadow-2xl text-center">
               <div className="img mt-6 flex justify-center">
-                <img src={pr} alt="" className="absolute " />
+              <img src={pr} alt="" className="absolute md:hidden " />
+                <img src={pr} alt="" className="absolute hidden md:block md:w-[200px] lg:hidden" />
+                <img src={pr} alt="" className="absolute hidden lg:block " />
                 <img src={joce} alt="" className="relative p-3" />
               </div>
               <div className="title mt-6">

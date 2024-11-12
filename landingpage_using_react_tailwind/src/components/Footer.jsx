@@ -14,10 +14,10 @@ const Footer = () => {
       <div className="white mt-6 lg:mt-20 lg:h-[98px] p-2 flex justify-center ">
 
         <div className="  bg-white h-[80px]  w-[1240px]  lg:h-[120px] lg:w-[1240px] ">
-          <div className="cont flex flex-col md:flex-row gap-6 p-4 lg:p-10 border bg-white relative bottom-0 shadow-2xl items-center justify-evenly rounded-lg">
+          <div className="cont flex  flex-col md:flex-row gap-6 p-4 lg:p-10 border bg-white relative bottom-0 shadow-2xl items-center justify-evenly rounded-lg">
             <div className="1 flex flex-col md:flex-row items-center gap-4">
               <img src={Email} alt="" />
-              <h1 className="text-2xl">info@youremail.com</h1>
+              <h1 className="md:text-xl text-2xl">info@youremail.com</h1>
             </div>
 
             <div className="1 lg:flex flex-col md:flex-row items-center ">
@@ -27,7 +27,7 @@ const Footer = () => {
 
             <div className="1 flex flex-col md:flex-row items-center gap-4">
               <img src={Call} alt="" />
-              <h1 className="text-2xl">+880 321 655 9985</h1>
+              <h1 className="md:text-xl text-2xl">+880 321 655 9985</h1>
             </div>
           </div>
         </div>
@@ -38,10 +38,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 p-4 md:grid-cols-3 justify-around mt-[220px] md:mt-40 xl:mt-60 xl:gap-16  xl:mx-20 text-white  border-b-2   xl:h-[280px] border-b-white">
 
 
-            <div className="l  md:pr-0 xl:max-w-[350px] mr-8 md:mr-[0px]">
+            <div className="l  md:pr-0 md:max-w-[200px] xl:max-w-[350px] mr-8 md:mx-6 md:mr-[0px]">
                 <h1 className="text-4xl font-bold" >LOGO</h1>
-                <h1 className="mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</h1>
-                <div className="socials mt-10 flex justify-between">
+                <h1 className="mt-8 md:mt-4 md:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</h1>
+                <div className="socials mt-10 md:mt-4 flex justify-between">
                 <img src={fb} alt="" />
                 <img src={ln} alt="" />
                 <img src={instagramIcon} alt="" />
@@ -69,9 +69,9 @@ const Footer = () => {
 
             <div className="r xl:max-w-[350px] mt-16 md:mt-[0px]  text-white">
                 <h1 className="text-3xl">NEWSLETTER</h1>
-                <h1 className="mt-4">Subscribe our newsletter to get our latest
+                <h1 className="mt-6 ">Subscribe our newsletter to get our latest
                 update & news</h1>
-                <div className="inp flex items-center mt-9 mb-4">
+                <div className="inp flex md:mt-9 items-center mt-9 mb-4">
                     <input type="email" className="text-black p-3  w-[600px]   xl:w-[308px]" name="" id="" placeholder="Your email address"/>
                     <button> <img src={lasticon} alt="" className="xl:p-[11px]  h-[48px] w-[107px]  xl:w-[51px] md:w-[150px] bg-[#5956E9] border border-white"  /> </button>
                 </div>
@@ -80,7 +80,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="copy text-white text-sm text-center mt-4 lg:mt-8 p-2 ">
+        <div className="copy text-white text-sm md:text-xl font-light text-center mt-4 lg:mt-8 p-2 ">
             <h1>&copy;  Copyright 2021. Ojjomedia. All Right Reserved.</h1>
             
         </div>
