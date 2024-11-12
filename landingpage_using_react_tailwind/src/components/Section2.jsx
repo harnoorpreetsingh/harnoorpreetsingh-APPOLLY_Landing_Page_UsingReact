@@ -20,7 +20,7 @@ const Section2 = () => {
              <div className="rightcards  mt-8 md:mt-2 ">
 
 
-                <div className="card1 md:h-[150px] md:w-[368px] sm:h-[190px] xl:h-[220px] rounded-xl xl:w-[572px] 2xl:w-[672px]shadow-lg  p-2 xl:p-4 2xl:p-8 ">
+                <div className="card1 md:h-[150px] md:w-[368px] sm:h-[190px] xl:h-[220px] rounded-xl xl:w-[572px] 2xl:w-[652px] shadow-lg  p-2 xl:p-4 2xl:p-8 ">
 
                     <div className="top flex gap-3 lg:mt-1">
                         <img src={tick} alt=""  className="lg:w-[35px] mt-3"/>
@@ -33,7 +33,7 @@ const Section2 = () => {
                 </div>
 
                 
-                <div className="card1 md:h-[150px] md:w-[368px] sm:h-[190px] xl:h-[220px] rounded-xl mt-8 xl:mt-4 xl:w-[572px] 2xl:w-[672px] shadow-lg p-2 xl:p-8 ">
+                <div className="card1 md:h-[150px] md:w-[368px] sm:h-[190px] xl:h-[220px] rounded-xl mt-8 xl:mt-4 xl:w-[572px] 2xl:w-[652px] shadow-lg p-2 xl:p-8 ">
                     <div className="top flex gap-3 mt-1">
                         <img src={tick} alt=""  className="lg:w-[35px] mt-3"/>
                         <p className='xl:text-3xl  mt-3 text-xl sm:text-2xl' >EASY TO USE</p>
@@ -45,7 +45,7 @@ const Section2 = () => {
                 </div>
 
                 
-                <div className="card1 md:h-[150px] md:w-[368px] h-[125px] sm:h-[190px] xl:h-[220px] xl:w-[572px] rounded-xl mt-8 xl:mt-4 2xl:w-[672px]  p-2 xl:p-8 shadow-lg">
+                <div className="card1 md:h-[150px] md:w-[368px] h-[125px] sm:h-[190px] xl:h-[220px] xl:w-[572px] rounded-xl mt-8 xl:mt-4 2xl:w-[652px]  p-2 xl:p-8 shadow-lg">
                     <div className="top flex gap-3 mt-1">
                         <img src={tick} alt=""  className="lg:w-[35px] mt-3"/>
                         <p className='xl:text-3xl mt-3 text-xl sm:text-2xl' >BEST USER EXPERIENCE</p>
