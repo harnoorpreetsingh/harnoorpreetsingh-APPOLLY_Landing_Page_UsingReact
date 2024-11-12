@@ -47,7 +47,7 @@ const Header = () => {
           </div>
 
           <div className="logo rounded-md p-4 lg:p-5 xl:p-7 bg-white h-[60px] sm:h-[70px] md:h-[80px] lg:h-[100px] flex items-center  ">
-            <img src={logo} alt="" className=" w-20 md:w-36  lg:w-48 xl:w-60 " />
+            <img src={logo} alt="" className=" w-20 md:w-36  lg:w-48 xl:w-28 " />
           </div>
 
           <div className="rightlis">
